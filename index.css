@@ -1,0 +1,123 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  padding: 20px;
+}
+
+h2, h3, h4, p {
+  margin:0;
+}
+
+.top h2 {
+  color: #79A5FC;
+  margin-bottom: 20px;
+}
+
+.top h4 {
+  color: #79CFFC;
+  margin-bottom: 10px;
+}
+
+.top p {
+  color: grey;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.card {
+  #border: 3px solid green;
+  width: 600px;
+  height: 350px;
+  box-shadow: 2px 3px 5px 2px rgba(0,0,0,0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.top {
+  width: 100%;
+  height:45%;
+  padding: 27px;
+}
+
+.bot {
+  width: 100%;
+  height: 55%;
+  color:white;
+}
+
+.bot1 {
+  background-color: #79CFFC;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.bot2 {
+  background-color: #79A5FC;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align:top;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  color: green;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+button:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.02, 1.02);
+}
+
+.price-tag {
+  font-size: 1.5rem;
+}
+
+.bot1 h3 {
+  margin-bottom: 20px;
+}
+
+.price-tag, .price-frequency {
+  display: inline-block;
+}
+
+.price-frequency {
+  position: relative;
+  top: -3px;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-left: 2px;
+}
+
+#access {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+
+.bot2 ul {
+  font-size: 0.8rem;
+  padding: 0;
+  list-style-type: none;
+  opacity: 0.9;
+}
+
+.bot2 li {
+  padding-bottom: 5px;
+}
